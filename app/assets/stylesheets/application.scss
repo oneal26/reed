@@ -1,0 +1,184 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.containerhome{
+background-image: url(studio.jpg);
+background-position: cover;
+height:100em;
+width:100em;
+}
+
+body{
+	background-color:#262626;
+}
+
+@font-face {
+	font-family: "aqua";
+	src: url('/assets/aqua.ttf') format("truetype");
+}
+
+
+.top{
+	padding-top:1em;
+	float: right;
+	display:inline;
+}
+
+.navy{
+	display:inline;
+	color:white;
+	padding-left:3em;
+	font-family:"aqua", "Arial Black", sans-serif;
+}
+
+
+.navybox{
+	display:inline;
+	padding:.25em 3em;
+	color:white;
+	border:.2em white solid;
+	margin-left:3em;
+	font-family:"aqua", "Arial Black", sans-serif;
+	text-align:center;
+}
+
+
+.title{
+	padding-top:20em;
+}
+
+h1{
+	font-family: aqua;
+	color:white;
+	font-face:bold;
+	text-align:center;
+}
+
+
+.navyboxtl{
+	display:inline;
+	padding:.25em 3em;
+	color:white;
+	border:.2em white solid;
+	font-family:"aqua", "Arial Black", sans-serif;
+	text-align:center;
+	margin-left:38em;
+}
+
+.navyboxtr{
+	display:inline;
+	padding:.25em 3em;
+	color:white;
+	border:.2em white solid;
+	font-family:"aqua", "Arial Black", sans-serif;
+	text-align:center;
+	margin-right:5em;
+}
+
+.containerabout{
+background-image: url(about.jpeg);
+background-position: cover;
+height:100em;
+width:100em;
+}
+
+.containerportfolio{
+background-image: url(portfolio.jpeg);
+background-position: cover;
+height:100em;
+width:100em;
+}
+
+.containerresume{
+background-image: url(resume.jpg);
+background-position: cover;
+height:100em;
+width:100em;
+}
+
+a{
+	color:white;
+}
+
+a:hover{
+	color:#d1d1d1;
+	text-decoration:none;
+}
+
+.fleft{
+	float:left;
+}
+
+
+p{
+	color:white;
+	font-family: "aqua";
+}
+
+
+.icon{
+	height:3em;
+	width:3em;
+	float:left;
+}
+
+
+
+.footer{
+	padding-left:2em;
+}
+
+.footerhome{
+	padding-left:2em;
+	display:block;
+}
+
+
+h2{
+	font-family: aqua;
+	color:white;
+	font-face:bold;
+	float:left;
+	padding-top:2em;
+}
+
+
+h3{
+	font-family: aqua;
+	color:white;
+	font-face:bold;
+	float:left;
+	padding-top:4em;
+}
+
+.info{
+	float:left;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
